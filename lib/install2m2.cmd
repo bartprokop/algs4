@@ -3,3 +3,6 @@
 
 call mvn install:install-file -DgroupId=3rd.algs4 -DartifactId=stdlib -Dversion=4 -Dpackaging=jar -Dfile=stdlib.jar
 call mvn install:install-file -DgroupId=3rd.algs4 -DartifactId=algs -Dversion=4 -Dpackaging=jar -Dfile=algs4.jar
+
+call mvn install:install-file -DgroupId=3rd.algs4 -DartifactId=stdlib-package -Dversion=4 -Dpackaging=jar -Dfile=stdlib-package.jar
+call mvn install:install-file -DgroupId=3rd.algs4 -DartifactId=algs-package -Dversion=4 -Dpackaging=jar -Dfile=algs4-package.jar
